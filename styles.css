@@ -1,0 +1,58 @@
+.colorPalette{
+    color: #de1a1a; /* Maximum red */
+    color: #776d5a; /* Pastel brown */
+    color: #acbed8; /* Light steel blue */
+    color: #1c0f13; /* Licorice */
+    color: #1a535c; /* English green */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html{
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #1a535c;
+    overflow-x: hidden;
+}
+
+nav{
+    position: fixed;
+    background-color: #acbed8;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.mmenu{
+    justify-content: right;
+    display: flex;
+    list-style: none;
+    margin-right: 5%;
+    font-size: 30px;
+    height: 15vh;
+}
+
+.logo{
+    flex: 1 1 auto;
+    margin-left: 4%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+header{
+    margin-top: 12.5%;
+    background-color: #1c0f13;
+    color: #acbed8;
+}
+
+header > p{
+    opacity: 0.7;
+}
